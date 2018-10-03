@@ -54,15 +54,33 @@ namespace BuclesEjercicio
             //Console.ReadKey();
 
             //Lo mismo con DOWHILE
-            int i;                      
-            do
+            //int i;                      
+            //do
+            //{
+            //    Console.WriteLine("Introduzca un número");
+            //    i = Int32.Parse(Console.ReadLine());
+
+            //} while (i > 0);//Se ejecuta hasta que sea falso
+            //Console.WriteLine("Ese número es negativo");
+            //Console.ReadKey();
+
+
+
+            ////BUCLE FOR
+            //for(int i = 0; i < 11; i++) {
+            //Console.WriteLine(i);}
+            //Console.ReadKey();
+
+            //Pedir cuatro numeros y sumarlos
+            int num1, suma=0;//LE TENEMOS QUE DAR VALOR A SUMAR PARA QUE PODAMOS SUMARLO AL FINAL DE FOR
+            for(int i=1; i < 5; i++)//LA PRIMERA ITERACIÓN CUENTA, SI HICIERA DE 0 A 4 SERÍAN CINCO VECES AL CONTAR EL 0
             {
-                Console.WriteLine("Introduzca un número");
-                i = Int32.Parse(Console.ReadLine());
-                
-            } while (i > 0);//Se ejecuta hasta que sea falso
-            Console.WriteLine("Ese número es negativo");
-            Console.ReadKey();
+                Console.WriteLine("Dame un número");
+                num1 = Int32.Parse(Console.ReadLine());
+                suma = suma + num1;//CADA VEZ QUE PASE POR AQUI CAMBIARA LA VARIABLE SUMA
+            }
+            Console.WriteLine("Total " + suma);
+            Console.ReadLine();
         }
     }
 }
