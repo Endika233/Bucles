@@ -247,9 +247,28 @@ namespace BuclesEjercicio
             //} 
 
 
-            //Escribe un programa que muestre el número entero positivo que el usuario introduzca pero al revés 
-            //(si introduce 1478 que muestre 8741), hasta que el usuario introduzca 0.
-            //Si introduce 0 la primera vez, debería mostrarlo al revés (es decir, mostrar 0) y acabar el programa.
+            ////Escribe un programa que muestre el número entero positivo que el usuario introduzca pero al revés 
+            ////(si introduce 1478 que muestre 8741), hasta que el usuario introduzca 0.
+            ////Si introduce 0 la primera vez, debería mostrarlo al revés (es decir, mostrar 0) y acabar el programa.
+            //int num;
+            //Console.WriteLine("Escriba un número");
+            //do
+            //{
+
+            //    num = Int32.Parse(Console.ReadLine());
+            //    do
+            //    {
+            //        Console.Write(num % 10);//Aquí saco la unidad.
+            //        num = num / 10;//al dividir en el siguiente ciclo la unidad sera la centena
+            //    } while (num != 0);
+            //} while (num != 0);
+
+
+
+            //Un número factorial es el resultado de multiplicar todos los números de 1 a ese mismo número
+            //(por ejemplo el factorial de 4 es 1 x 2 x 3 x 4 = 24). 
+            //Haz un programa que muestre los números del 1 al 10 en una columna con el resultado de su factorial
+            //en la columna de al lado.
 
 
 
@@ -260,7 +279,8 @@ namespace BuclesEjercicio
 
 
 
-            Console.ReadLine();
+
+           Console.ReadLine();
         }
     }
 }
