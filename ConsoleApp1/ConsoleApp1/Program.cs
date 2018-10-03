@@ -100,7 +100,7 @@ namespace BuclesEjercicio
             //}
 
 
-            //Escribe un programa que pida 10 valores. Al final mostrar la media de esos valores.
+            ////Escribe un programa que pida 10 valores. Al final mostrar la media de esos valores.
             //int media, suma = 0;
             //for(int i = 1; i <= 10; i++)
             //{
@@ -131,31 +131,46 @@ namespace BuclesEjercicio
             //Console.WriteLine("La suma de los números introducidos es " + suma);
 
 
-            //Escribe un programa que muestre todos los valores pares o impares entre 1 y 100,
-            //dependiendo de si el usuario introduce P o I . 
-            //Si introduce otra cosa, decir que ese valor no es correcto y pedirle otra vez.
-            int i;
-            string bin;
-            do
-            {
-                Console.WriteLine("¿Números pares o impares?P/I");
-                bin = Console.ReadLine();
-                if (bin == "P" || bin =="p")
-                {
-                    for (i = 2; i <= 100; i+=2) //Primero + luego igual
-                    Console.WriteLine(i);
-                }
-                else if (bin =="I"||bin=="i") //Primero + luego igual
-                {
-                    for (i = 1; i <= 100; i += 2) 
-                    Console.WriteLine(i);
-                }
-                else
-                {
-                    Console.WriteLine("Comando no válido /n");
-                }
+            ////Escribe un programa que muestre todos los valores pares o impares entre 1 y 100,
+            ////dependiendo de si el usuario introduce P o I . 
+            ////Si introduce otra cosa, decir que ese valor no es correcto y pedirle otra vez.
+            //int i;
+            //string bin;
+            //do
+            //{
+            //    Console.WriteLine("¿Números pares o impares?P/I");
+            //    bin = Console.ReadLine();
+            //    if (bin == "P" || bin =="p")
+            //    {
+            //        for (i = 2; i <= 100; i+=2) //Primero + luego igual
+            //        Console.WriteLine(i);
+            //    }
+            //    else if (bin =="I"||bin=="i") //Primero + luego igual
+            //    {
+            //        for (i = 1; i <= 100; i += 2) 
+            //        Console.WriteLine(i);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Comando no válido /n");
+            //    }
 
-            } while (bin != "P" && bin!="p"&&bin!="i"&&bin!="I");//Repetir mientras sea verdad que cualquiera es diferente
+            //} while (bin != "P" && bin!="p"&&bin!="i"&&bin!="I");//Repetir mientras sea verdad que cualquiera es diferente
+
+
+
+            ////Escribe un programa que pregunte al usuario su edad. 
+            ////Mostrar en pantalla “Feliz cumpleaños” repetido tantas veces como años tenga.
+            //int edad,i;
+            //Console.WriteLine("¿Cuántos años tienes?");
+            //edad = Int32.Parse(Console.ReadLine());
+            //for (i = 0; i < edad; i++)
+            //{
+            //    Console.WriteLine("¡¡FELIZ CUMPLEAÑOS!!");
+            //}
+
+
+            //
 
 
 
