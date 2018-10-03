@@ -170,7 +170,22 @@ namespace BuclesEjercicio
             //}
 
 
-            //
+            //Pedir al usuario un número. Mostrar en pantalla 
+            //*
+            //**
+            //***
+            //Con tantas líneas como el número que ha introducido
+            int lineas,i,j;
+            Console.WriteLine("Escribe un número de líneas");
+            lineas = Int32.Parse(Console.ReadLine());
+            for (i = 0; i < lineas; i++)//Este escribe cuantas líneas va a hacer
+            {
+                for (j = 0; j <= i; j++)//hasta que j iguale a i sigue escribiendo asteriscos
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
 
 
 
