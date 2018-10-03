@@ -170,22 +170,93 @@ namespace BuclesEjercicio
             //}
 
 
-            //Pedir al usuario un número. Mostrar en pantalla 
-            //*
-            //**
-            //***
-            //Con tantas líneas como el número que ha introducido
-            int lineas,i,j;
-            Console.WriteLine("Escribe un número de líneas");
-            lineas = Int32.Parse(Console.ReadLine());
-            for (i = 0; i < lineas; i++)//Este escribe cuantas líneas va a hacer
-            {
-                for (j = 0; j <= i; j++)//hasta que j iguale a i sigue escribiendo asteriscos
-                {
-                    Console.Write("*");//Asi en la línea 4 habrá 4 asteríscos etc.
-                }
-                Console.WriteLine();
-            }
+            ////Pedir al usuario un número. Mostrar en pantalla 
+            ////*
+            ////**
+            ////***
+            ////Con tantas líneas como el número que ha introducido
+            //int lineas,i,j;
+            //Console.WriteLine("Escribe un número de líneas");
+            //lineas = Int32.Parse(Console.ReadLine());
+            //for (i = 0; i < lineas; i++)//Este escribe cuantas líneas va a hacer
+            //{
+            //    for (j = 0; j <= i; j++)//hasta que j iguale a i sigue escribiendo asteriscos
+            //    {
+            //        Console.Write("*");//Asi en la línea 4 habrá 4 asteríscos etc.
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            ////Escribe un programa que muestre los números de 1 a 12 en una columna.
+            ////En la columna de al lado de los números impares mostrar el cuadrado de ese valor 
+            ////y en la de los pares mostrar el cubo.
+            //int i;//Tabulado\t, salto de línea \n
+            //for (i = 1; i <= 12; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i + "\t" + Math.Pow(i, 3));
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i + "\t" + Math.Pow(i, 2));
+            //    }
+            //}
+
+
+            ////Mostrar en pantalla diez números, siendo el primero 1 y los siguientes la suma del número anterior y 5.
+            //int num=1;
+            //Console.WriteLine(num);
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(num + 5);
+            //    num = num + 5;
+            //}
+
+
+            ////Crear un programa que muestre el valor de sumar todos los números desde 1
+            ////hasta el número que introduzca el usuario. 
+            ////Por ejemplo si introduce el 8 debería mostrar 36 (1 + 2+ 3+ 4+ 5+ 6+ 7+ 8)
+            //int num1,i,num2=0;
+            //Console.WriteLine("Introduzca un número");
+            //num1 = Int32.Parse(Console.ReadLine());
+            //for (i = 1; i <= num1; i++)
+            //{                
+            //    num2 = num2 + i;//Cada vez que la iteracion suba de valor sumamos uno y cambiamos el valor a 2              
+            //}
+            //Console.WriteLine(num2);
+
+
+            ////Escribe un programa que muestre el resultado de sumar todos los números del 1
+            ////hasta el número introducido y que vuelva a pedirle al usuario otro número 
+            ////hasta que el usuario introduzca un 0.
+            //int num1, i, num2 = 0;
+            //Console.WriteLine("Introduzca un número");
+            //num1 = Int32.Parse(Console.ReadLine());
+            //while (num1 != 0) 
+            //{                
+            //    for (i = 1; i <= num1; i++)
+            //    {
+            //        num2 = num2 + i;                    
+            //    }
+            //    Console.WriteLine(num2);
+            //    num2 = 0;//Aquí refrescamos la variable para que no vaya sumando resultados
+            //    Console.WriteLine("Introduzca un número");
+            //    num1 = Int32.Parse(Console.ReadLine());
+            //} 
+
+
+            //Escribe un programa que muestre el número entero positivo que el usuario introduzca pero al revés 
+            //(si introduce 1478 que muestre 8741), hasta que el usuario introduzca 0.
+            //Si introduce 0 la primera vez, debería mostrarlo al revés (es decir, mostrar 0) y acabar el programa.
+
+
+
+
+
+
+
 
 
 
