@@ -134,9 +134,28 @@ namespace BuclesEjercicio
             //Escribe un programa que muestre todos los valores pares o impares entre 1 y 100,
             //dependiendo de si el usuario introduce P o I . 
             //Si introduce otra cosa, decir que ese valor no es correcto y pedirle otra vez.
+            int i;
+            string bin;
+            do
+            {
+                Console.WriteLine("¿Números pares o impares?P/I");
+                bin = Console.ReadLine();
+                if (bin == "P" || "p")
+                {
+                    for (i = 0; i <= 100; i++) ;
+                    Console.WriteLine(i);
+                }
+                else if (bin == "I" || "i") 
+                {
+                    for (i = 1; i <= 100; i++) ;
+                    Console.WriteLine(i);
+                }
+                else
+                {
+                    Console.WriteLine("Comando no válido /n");
+                }
 
-
-
+            } while (bin != "P" || "p"||"i"||"I");
 
 
 
