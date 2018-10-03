@@ -140,12 +140,12 @@ namespace BuclesEjercicio
             {
                 Console.WriteLine("¿Números pares o impares?P/I");
                 bin = Console.ReadLine();
-                if (bin == "P" || "p")
+                if (bin == "P" || bin =="p")
                 {
                     for (i = 0; i <= 100; i++) ;
                     Console.WriteLine(i);
                 }
-                else if (bin == "I" || "i") 
+                else if (bin =="I"||bin=="i") 
                 {
                     for (i = 1; i <= 100; i++) ;
                     Console.WriteLine(i);
@@ -155,7 +155,7 @@ namespace BuclesEjercicio
                     Console.WriteLine("Comando no válido /n");
                 }
 
-            } while (bin != "P" || "p"||"i"||"I");
+            } while (bin != "P" || bin!="p"||bin!="i"||bin!="I");
 
 
 
