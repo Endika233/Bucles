@@ -182,7 +182,7 @@ namespace BuclesEjercicio
             {
                 for (j = 0; j <= i; j++)//hasta que j iguale a i sigue escribiendo asteriscos
                 {
-                    Console.Write("*");
+                    Console.Write("*");//Asi en la línea 4 habrá 4 asteríscos etc.
                 }
                 Console.WriteLine();
             }
