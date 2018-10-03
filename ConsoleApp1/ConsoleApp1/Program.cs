@@ -269,7 +269,26 @@ namespace BuclesEjercicio
             //(por ejemplo el factorial de 4 es 1 x 2 x 3 x 4 = 24). 
             //Haz un programa que muestre los números del 1 al 10 en una columna con el resultado de su factorial
             //en la columna de al lado.
+            //int i,fact=1;
+            //for (i = 1; i <= 10; i++)
+            //{
 
+            //    if (i != 1)
+            //    {
+            //        fact = i*i-1;
+            //    }
+            //    Console.WriteLine(i + "\t" + fact );
+
+            //}
+            int fact=1,i,num;
+            Console.WriteLine("Numero a fact");
+            num = Int32.Parse(Console.ReadLine());
+            for(i = 1; i <= num; i++)
+            {
+                fact = i * fact;//Factorizacion
+               
+            }
+            Console.WriteLine(fact);
 
 
 
