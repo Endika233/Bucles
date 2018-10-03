@@ -142,10 +142,10 @@ namespace BuclesEjercicio
                 bin = Console.ReadLine();
                 if (bin == "P" || bin =="p")
                 {
-                    for (i = 2; i <= 100; i+=2) 
+                    for (i = 2; i <= 100; i+=2) //Primero + luego igual
                     Console.WriteLine(i);
                 }
-                else if (bin =="I"||bin=="i") 
+                else if (bin =="I"||bin=="i") //Primero + luego igual
                 {
                     for (i = 1; i <= 100; i += 2) 
                     Console.WriteLine(i);
@@ -155,7 +155,7 @@ namespace BuclesEjercicio
                     Console.WriteLine("Comando no válido /n");
                 }
 
-            } while (bin != "P" && bin!="p"&&bin!="i"&&bin!="I");//Es con & por que cualquiera de ellas tiene que ser diferente
+            } while (bin != "P" && bin!="p"&&bin!="i"&&bin!="I");//Repetir mientras sea verdad que cualquiera es diferente
 
 
 
