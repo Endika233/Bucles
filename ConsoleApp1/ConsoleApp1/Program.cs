@@ -281,21 +281,76 @@ namespace BuclesEjercicio
 
 
 
-            //Escribe un programa que pida un número y muestre el resultado de sumar sus dígitos.
-            int i, num,sum=0;
-            Console.WriteLine("Introduzca un número");
-            num = Int32.Parse(Console.ReadLine());
+            ////Escribe un programa que pida un número y muestre el resultado de sumar sus dígitos.
+            //int i, num,sum=0;
+            //Console.WriteLine("Introduzca un número");
+            //num = Int32.Parse(Console.ReadLine());
 
-            do
+            //do
+            //{
+            //    sum = num % 10 + sum;//Vamos sacando las unidades
+            //    num = num / 10;//y aqui las vamos sumando
+            //} while (num != 0);
+            //Console.WriteLine(sum);
+
+
+            //Mostrar en pantalla una pirámide hecha con un símbolo.
+            //El usuario introduce el símbolo que se usa y un valor que indica la altura en líneas de la pirámide.
+            //Por ejemplo si el usuario introduce # y 7 el resultado será:
+            int i,j,k,l, lineas;
+            string simb;
+            Console.WriteLine("Escribe el simbolo que quieras");
+            simb=Console.ReadLine();
+            Console.WriteLine("¿Cuantas líneas quieres en la pirámide?");
+            lineas = Int32.Parse(Console.ReadLine());
+            
+            for (i = 0; i < lineas; i++)
             {
-                sum = num % 10 + sum;//Vamos sacando las unidades
-                num = num / 10;//y aqui las vamos sumando
-            } while (num != 0);
-            Console.WriteLine(sum);
+                for (j =lineas; j<1 ; j--)
+                {
+                    Console.Write(" ");
+                    for (k = 1; k < lineas; k++)
+                    {
+                        Console.Write(simb);
+                    }
+                
+                }
+
+                for (l = 0; l <= i; l++)
+                {
+                    Console.Write(simb);
+                }
 
 
 
-        
+                Console.WriteLine();
+         
+            }
+
+
+
+
+
+
+
+
+
+            ////Pedir al usuario un número. Mostrar en pantalla 
+            ////*
+            ////**
+            ////***
+            ////Con tantas líneas como el número que ha introducido
+            //int lineas,i,j;
+            //Console.WriteLine("Escribe un número de líneas");
+            //lineas = Int32.Parse(Console.ReadLine());
+            //for (i = 0; i < lineas; i++)//Este escribe cuantas líneas va a hacer
+            //{
+            //    for (j = 0; j <= i; j++)//hasta que j iguale a i sigue escribiendo asteriscos
+            //    {
+            //        Console.Write("*");//Asi en la línea 4 habrá 4 asteríscos etc.
+            //    }
+            //    Console.WriteLine();
+            //}
 
             Console.ReadLine();
         }
