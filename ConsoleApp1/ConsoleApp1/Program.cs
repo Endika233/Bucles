@@ -265,20 +265,33 @@ namespace BuclesEjercicio
 
 
 
-            //Un número factorial es el resultado de multiplicar todos los números de 1 a ese mismo número
-            //(por ejemplo el factorial de 4 es 1 x 2 x 3 x 4 = 24). 
-            //Haz un programa que muestre los números del 1 al 10 en una columna con el resultado de su factorial
-            //en la columna de al lado.
-            int i, fact = 1;
-            for (i = 1; i <= 10; i++)//Si i fuera 0 al calcular el factor primero multiplicaria por cero jodiendo lo demas
+            ////Un número factorial es el resultado de multiplicar todos los números de 1 a ese mismo número
+            ////(por ejemplo el factorial de 4 es 1 x 2 x 3 x 4 = 24). 
+            ////Haz un programa que muestre los números del 1 al 10 en una columna con el resultado de su factorial
+            ////en la columna de al lado.
+            //int i, fact = 1;
+            //for (i = 1; i <= 10; i++)//Si i fuera 0 al calcular el factor primero multiplicaria por cero jodiendo lo demas
+            //{
+
+            //    fact=i*fact;//factorizacion(1*2*3=3!(factor 3)cada vez que el for vuelve, i suma uno y lo multiplica por
+            //    //el factor del número anterior que ya habíamos calculado
+            //    Console.WriteLine(i + "\t" + fact);
+
+            //}
+
+
+
+            //Escribe un programa que pida un número y muestre el resultado de sumar sus dígitos.
+            int i, num,sum=0;
+            Console.WriteLine("Introduzca un número");
+            num = Int32.Parse(Console.ReadLine());
+
+            do
             {
-
-                fact=i*fact;//factorizacion(1*2*3=3!(factor 3)cada vez que el for vuelve, i suma uno y lo multiplica por
-                //el factor del número anterior que ya habíamos calculado
-                Console.WriteLine(i + "\t" + fact);
-
-            }
-
+                sum = num % 10 + sum;//Vamos sacando las unidades
+                num = num / 10;//y aqui las vamos sumando
+            } while (num != 0);
+            Console.WriteLine(sum);
 
 
 
