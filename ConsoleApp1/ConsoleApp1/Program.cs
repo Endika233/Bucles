@@ -295,11 +295,7 @@ namespace BuclesEjercicio
 
 
 
-            //for (i = 1; i <= num; i++)
-            //{
-            //    fact = i * fact;//Factorizacion
-
-            //}
+        
 
             Console.ReadLine();
         }
