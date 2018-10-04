@@ -288,9 +288,6 @@ namespace BuclesEjercicio
 
             //}
 
-
-
-
             Console.ReadLine();
         }
     }
