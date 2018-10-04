@@ -309,17 +309,14 @@ namespace BuclesEjercicio
                 for (j =lineas; j<1 ; j--)
                 {
                     Console.Write(" ");
-                    for (k = 1; k < lineas; k++)//linea-i
+                    for (k = 1; k < lineas; k++)//linea-i ESTO ESTA MAL, REPASALO!!
                     {
                         Console.Write(simb);
                     }
                 
                 }
 
-                for (l = 0; l <= i; l++)
-                {
-                    Console.Write(simb);
-                }
+
 
 
 
